@@ -114,8 +114,8 @@ txtCipher=$(encryption "${txt[*]}" "${key[*]}")
 echo Cipher txt: ${txtCipher[@]}
 txtDecrypted=$(decryption "${txtCipher[*]}" "${key[*]}")
 echo Decrypted txt: ${txtDecrypted[@]}
-#  sdes2.sh
+#  sdes.sh
 #
 #
-#  Created by Данил Кольцов on 09.03.2020.
+#  Created by danil-koltsov
 #
